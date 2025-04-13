@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EFlowers_Products.props" />
+</Project>

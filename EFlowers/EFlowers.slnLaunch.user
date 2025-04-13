@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Multiples",
+    "Projects": [
+      {
+        "Path": "EFlowers_Products\\EFlowers_Products.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "EFlowers.Web\\EFlowers.Web.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
