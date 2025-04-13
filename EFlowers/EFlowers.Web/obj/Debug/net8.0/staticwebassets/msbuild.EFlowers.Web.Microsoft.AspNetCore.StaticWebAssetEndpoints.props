@@ -16,13 +16,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EFlowers.Web.fjjusxfznn.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ay5qH1fAP7x6RieSCiybL4gPBXc7IP2RUxWvSJPZMSo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1130"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ay5qH1fAP7x6RieSCiybL4gPBXc7IP2RUxWvSJPZMSo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 20:58:25 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1130"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ay5qH1fAP7x6RieSCiybL4gPBXc7IP2RUxWvSJPZMSo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Apr 2025 16:37:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EFlowers.Web/EFlowers.Web.fjjusxfznn.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EFlowers.Web.fjjusxfznn.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fjjusxfznn"},{"Name":"integrity","Value":"sha256-ay5qH1fAP7x6RieSCiybL4gPBXc7IP2RUxWvSJPZMSo="},{"Name":"label","Value":"_content/EFlowers.Web/EFlowers.Web.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1130"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ay5qH1fAP7x6RieSCiybL4gPBXc7IP2RUxWvSJPZMSo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 20:58:25 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1130"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ay5qH1fAP7x6RieSCiybL4gPBXc7IP2RUxWvSJPZMSo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Apr 2025 16:37:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EFlowers.Web/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

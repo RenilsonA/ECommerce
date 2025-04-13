@@ -1,13 +1,17 @@
 [
   {
-    "Name": "Multiples",
+    "Name": "All",
     "Projects": [
       {
-        "Path": "EFlowers_Products\\EFlowers_Products.csproj",
+        "Path": "EFlowers_Products\\LTEStore_Products.csproj",
         "Action": "Start"
       },
       {
         "Path": "EFlowers.Web\\EFlowers.Web.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "EFlowers_Auth\\LTEStore_Auth.csproj",
         "Action": "Start"
       }
     ]

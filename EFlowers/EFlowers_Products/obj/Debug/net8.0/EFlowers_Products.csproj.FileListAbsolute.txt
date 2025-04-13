@@ -6,6 +6,7 @@ C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debu
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debug\net8.0\EFlowers_Products.runtimeconfig.json
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debug\net8.0\EFlowers_Products.dll
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debug\net8.0\EFlowers_Products.pdb
+C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debug\net8.0\Humanizer.dll
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -89,6 +90,7 @@ C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debu
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\EFlowers_Products.csproj.CoreCompileInputs.cache
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\EFlowers_Products.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\EFlowers_Products.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\EFlowers_Products.sourcelink.json
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\scopedcss\bundle\EFlowers_Products.styles.css
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\staticwebassets.development.json
@@ -99,11 +101,18 @@ C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debu
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EFlowers_Products.props
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EFlowers_Products.props
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\EFlowers.879FA50E.Up2Date
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\EFlowers_Products.dll
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\refint\EFlowers_Products.dll
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\EFlowers_Products.pdb
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\EFlowers_Products.genruntimeconfig.cache
 C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\ref\EFlowers_Products.dll
-C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\renil\Documents\Reuso\Microservices\EFlowers\EFlowers_Products\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EFlowers_Products.Implementation
@@ -58,6 +59,7 @@ namespace EFlowers_Products.Implementation
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = Role.Admin)]
         public async Task<ActionResult<ProductDTO>> Delete(int id)
         {
             var produtoDto = await _productService.GetProductById(id);

@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\renil\\Documents\\Reuso\\Microservices\\EFlowers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45E8BE83-D17D-40AE-99A3-B357E3E4CDC3}|EFlowers.Web\\EFlowers.Web.csproj|c:\\users\\renil\\documents\\reuso\\microservices\\eflowers\\eflowers.web\\implementation\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45E8BE83-D17D-40AE-99A3-B357E3E4CDC3}|EFlowers.Web\\EFlowers.Web.csproj|solutionrelative:eflowers.web\\implementation\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45E8BE83-D17D-40AE-99A3-B357E3E4CDC3}|EFlowers.Web\\EFlowers.Web.csproj|c:\\users\\renil\\documents\\reuso\\microservices\\eflowers\\eflowers.web\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45E8BE83-D17D-40AE-99A3-B357E3E4CDC3}|EFlowers.Web\\EFlowers.Web.csproj|solutionrelative:eflowers.web\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45E8BE83-D17D-40AE-99A3-B357E3E4CDC3}|EFlowers.Web\\EFlowers.Web.csproj|c:\\users\\renil\\documents\\reuso\\microservices\\eflowers\\eflowers.web\\implementation\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45E8BE83-D17D-40AE-99A3-B357E3E4CDC3}|EFlowers.Web\\EFlowers.Web.csproj|solutionrelative:eflowers.web\\implementation\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1074E73C-EBFA-44FE-9539-95AA9A53882B}|EFlowers_Auth\\LTEStore_Auth.csproj|c:\\users\\renil\\documents\\reuso\\microservices\\eflowers\\eflowers_auth\\quickstart\\account\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1074E73C-EBFA-44FE-9539-95AA9A53882B}|EFlowers_Auth\\LTEStore_Auth.csproj|solutionrelative:eflowers_auth\\quickstart\\account\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\renil\\Documents\\Reuso\\Microservices\\EFlowers\\EFlowers.Web\\Implementation\\IProductService.cs",
-              "RelativeDocumentMoniker": "EFlowers.Web\\Implementation\\IProductService.cs",
-              "ToolTip": "C:\\Users\\renil\\Documents\\Reuso\\Microservices\\EFlowers\\EFlowers.Web\\Implementation\\IProductService.cs",
-              "RelativeToolTip": "EFlowers.Web\\Implementation\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T23:32:43.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\renil\\Documents\\Reuso\\Microservices\\EFlowers\\EFlowers.Web\\Implementation\\ProductService.cs",
-              "RelativeDocumentMoniker": "EFlowers.Web\\Implementation\\ProductService.cs",
-              "ToolTip": "C:\\Users\\renil\\Documents\\Reuso\\Microservices\\EFlowers\\EFlowers.Web\\Implementation\\ProductService.cs",
-              "RelativeToolTip": "EFlowers.Web\\Implementation\\ProductService.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAIwE4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T23:03:07.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\renil\\Documents\\Reuso\\Microservices\\EFlowers\\EFlowers.Web\\Implementation\\ProductsController.cs",
-              "RelativeDocumentMoniker": "EFlowers.Web\\Implementation\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\renil\\Documents\\Reuso\\Microservices\\EFlowers\\EFlowers.Web\\Implementation\\ProductsController.cs",
-              "RelativeToolTip": "EFlowers.Web\\Implementation\\ProductsController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwDkAAABFAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\renil\\Documents\\Reuso\\Microservices\\EFlowers\\EFlowers_Auth\\Quickstart\\Account\\AccountController.cs",
+              "RelativeDocumentMoniker": "EFlowers_Auth\\Quickstart\\Account\\AccountController.cs",
+              "ToolTip": "C:\\Users\\renil\\Documents\\Reuso\\Microservices\\EFlowers\\EFlowers_Auth\\Quickstart\\Account\\AccountController.cs",
+              "RelativeToolTip": "EFlowers_Auth\\Quickstart\\Account\\AccountController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAHEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T23:01:24.929Z",
+              "WhenOpened": "2025-04-13T20:00:26.662Z",
               "EditorCaption": ""
             }
           ]

@@ -7,11 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{02EA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{2DD25B82-3EBC-4DBE-8354-B07850C9345E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFlowers_Products", "EFlowers_Products\EFlowers_Products.csproj", "{201705DA-1DCA-4D25-B610-029BA9C3190A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTEStore_Products", "EFlowers_Products\LTEStore_Products.csproj", "{201705DA-1DCA-4D25-B610-029BA9C3190A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{2A755771-BA4B-4E70-980C-57683DFBD1AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFlowers.Web", "EFlowers.Web\EFlowers.Web.csproj", "{45E8BE83-D17D-40AE-99A3-B357E3E4CDC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTEStore_Auth", "EFlowers_Auth\LTEStore_Auth.csproj", "{1074E73C-EBFA-44FE-9539-95AA9A53882B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{45E8BE83-D17D-40AE-99A3-B357E3E4CDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45E8BE83-D17D-40AE-99A3-B357E3E4CDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45E8BE83-D17D-40AE-99A3-B357E3E4CDC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1074E73C-EBFA-44FE-9539-95AA9A53882B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1074E73C-EBFA-44FE-9539-95AA9A53882B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1074E73C-EBFA-44FE-9539-95AA9A53882B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1074E73C-EBFA-44FE-9539-95AA9A53882B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +41,7 @@ Global
 		{2DD25B82-3EBC-4DBE-8354-B07850C9345E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{201705DA-1DCA-4D25-B610-029BA9C3190A} = {2DD25B82-3EBC-4DBE-8354-B07850C9345E}
 		{45E8BE83-D17D-40AE-99A3-B357E3E4CDC3} = {2A755771-BA4B-4E70-980C-57683DFBD1AD}
+		{1074E73C-EBFA-44FE-9539-95AA9A53882B} = {2DD25B82-3EBC-4DBE-8354-B07850C9345E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {521DDF62-827F-4ECC-B283-FBDCED7ABCF0}
