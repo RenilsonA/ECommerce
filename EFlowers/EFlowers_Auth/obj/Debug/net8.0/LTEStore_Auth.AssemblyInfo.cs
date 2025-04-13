@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LTEStore_Auth")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c604bbb7b2df6258599320496f72db27b511a9be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3c77cc2e3fcee6648164ccf11d2ec06fdc37226")]
 [assembly: System.Reflection.AssemblyProductAttribute("LTEStore_Auth")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LTEStore_Auth")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

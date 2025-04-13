@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\renil\\Documents\\Reuso\\Microservices\\EFlowers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1074E73C-EBFA-44FE-9539-95AA9A53882B}|EFlowers_Auth\\LTEStore_Auth.csproj|c:\\users\\renil\\documents\\reuso\\microservices\\eflowers\\eflowers_auth\\quickstart\\account\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1074E73C-EBFA-44FE-9539-95AA9A53882B}|EFlowers_Auth\\LTEStore_Auth.csproj|solutionrelative:eflowers_auth\\quickstart\\account\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45E8BE83-D17D-40AE-99A3-B357E3E4CDC3}|EFlowers.Web\\EFlowers.Web.csproj|c:\\users\\renil\\documents\\reuso\\microservices\\eflowers\\eflowers.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E8BE83-D17D-40AE-99A3-B357E3E4CDC3}|EFlowers.Web\\EFlowers.Web.csproj|solutionrelative:eflowers.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E8BE83-D17D-40AE-99A3-B357E3E4CDC3}|EFlowers.Web\\EFlowers.Web.csproj|c:\\users\\renil\\documents\\reuso\\microservices\\eflowers\\eflowers.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{45E8BE83-D17D-40AE-99A3-B357E3E4CDC3}|EFlowers.Web\\EFlowers.Web.csproj|solutionrelative:eflowers.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\renil\\Documents\\Reuso\\Microservices\\EFlowers\\EFlowers.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "EFlowers.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\renil\\Documents\\Reuso\\Microservices\\EFlowers\\EFlowers.Web\\appsettings.json",
+              "RelativeToolTip": "EFlowers.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-13T23:23:56.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\renil\\Documents\\Reuso\\Microservices\\EFlowers\\EFlowers_Auth\\Quickstart\\Account\\AccountController.cs",
-              "RelativeDocumentMoniker": "EFlowers_Auth\\Quickstart\\Account\\AccountController.cs",
-              "ToolTip": "C:\\Users\\renil\\Documents\\Reuso\\Microservices\\EFlowers\\EFlowers_Auth\\Quickstart\\Account\\AccountController.cs",
-              "RelativeToolTip": "EFlowers_Auth\\Quickstart\\Account\\AccountController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAowHEAAAARAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\renil\\Documents\\Reuso\\Microservices\\EFlowers\\EFlowers.Web\\Program.cs",
+              "RelativeDocumentMoniker": "EFlowers.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\renil\\Documents\\Reuso\\Microservices\\EFlowers\\EFlowers.Web\\Program.cs",
+              "RelativeToolTip": "EFlowers.Web\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:00:26.662Z",
+              "WhenOpened": "2025-04-13T23:21:42.091Z",
               "EditorCaption": ""
             }
           ]

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EFlowers_Auth.Implementation;
 
-public class AppDbContext : IdentityDbContext<AppUser>
+public class AppDbContext : IdentityDbContext<ApplicationUser>
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 }

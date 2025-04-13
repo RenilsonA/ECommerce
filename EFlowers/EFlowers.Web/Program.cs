@@ -7,13 +7,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddHttpClient("Product", c =>
-{
-    c.BaseAddress = new Uri(builder.Configuration["ServiceUri:Product"]);
-});
-
-builder.Services.AddScoped<IProductService, ProductService>();
-
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultScheme = "Cookies";
@@ -26,7 +19,7 @@ builder.Services.AddAuthentication(options =>
         {
             OnRedirectToAccessDenied = (context) =>
             {
-                context.HttpContext.Response.Redirect(builder.Configuration["ServiceUri:Auth"] + "/Account/AccessDenied");
+                context.HttpContext.Response.Redirect(builder.Configuration["ServiceUri:IdentityServer"] + "/Account/AccessDenied");
                 return Task.CompletedTask;
             }
         };
@@ -41,19 +34,26 @@ builder.Services.AddAuthentication(options =>
             return Task.FromResult(0);
         };
 
-        options.Authority = builder.Configuration["ServiceUri:Auth"];
+        options.Authority = builder.Configuration["ServiceUri:IdentityServer"];
         options.GetClaimsFromUserInfoEndpoint = true;
-        options.ClientId = "LTE Store";
+        options.ClientId = "LTEStore";
         options.ClientSecret = builder.Configuration["Client:Secret"];
         options.ResponseType = "code";
         options.ClaimActions.MapJsonKey("role", "role", "role");
         options.ClaimActions.MapJsonKey("sub", "sub", "sub");
         options.TokenValidationParameters.NameClaimType = "name";
         options.TokenValidationParameters.RoleClaimType = "role";
-        options.Scope.Add("LTE Store");
+        options.Scope.Add("LTEStore");
         options.SaveTokens = true;
     }
 );
+
+builder.Services.AddHttpClient("Product", c =>
+{
+    c.BaseAddress = new Uri(builder.Configuration["ServiceUri:Product"]);
+});
+
+builder.Services.AddScoped<IProductService, ProductService>();
 
 var app = builder.Build();
 

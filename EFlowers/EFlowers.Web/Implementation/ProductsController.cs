@@ -44,7 +44,6 @@ public class ProductsController : Controller
     }
 
     [HttpGet]
-    [Authorize(Roles = Role.Admin)]
     public async Task<ActionResult<ProductViewModel>> DeleteProduct(int id)
     {
         var result = await _productService.FindProductById(id);
@@ -56,7 +55,6 @@ public class ProductsController : Controller
     }
 
     [HttpPost(), ActionName("DeleteProduct")]
-    [Authorize(Roles = Role.Admin)]
     public async Task<IActionResult> DeleteConfirmed(int id)
     {
         var result = await _productService.DeleteProductById(id);

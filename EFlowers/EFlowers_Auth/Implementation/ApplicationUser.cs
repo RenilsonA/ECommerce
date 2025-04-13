@@ -2,7 +2,7 @@
 
 namespace EFlowers_Auth.Implementation;
 
-public class AppUser : IdentityUser
+public class ApplicationUser : IdentityUser
 {
     public string FirstName { get; set; } = String.Empty;
 

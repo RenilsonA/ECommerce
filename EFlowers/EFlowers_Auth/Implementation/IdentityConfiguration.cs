@@ -17,7 +17,7 @@ public class IdentityConfiguration
 
     public static IEnumerable<ApiScope> ApiScopes => new List<ApiScope>
     {
-        new ApiScope("EFlowers", "Eflowers Server"),
+        new ApiScope("LTEStore", "LTEStore Server"),
         new ApiScope(name: "read", "Read data."),
         new ApiScope(name: "write", "Write data."),
         new ApiScope(name: "delete", "Delete data."),
@@ -34,18 +34,20 @@ public class IdentityConfiguration
         },
         new Client
         {
-            ClientId = "EFlowers",
+            ClientId = "LTEStore",
             ClientSecrets = { new Secret("teste".Sha256())},
             AllowedGrantTypes = GrantTypes.Code,
-            RedirectUris = {"https://localhost:7165/signin-oidc"},
-            PostLogoutRedirectUris = {"https://localhost:7165/signout-callback-oidc"},
+            RedirectUris = {"https://localhost:7101/signin-oidc"},
+            PostLogoutRedirectUris = {"https://localhost:7101/signout-callback-oidc"},
+            AllowedCorsOrigins = { "https://localhost:7101" },
             AllowedScopes = new List<string>
             {
                 IdentityServerConstants.StandardScopes.OpenId,
                 IdentityServerConstants.StandardScopes.Profile,
                 IdentityServerConstants.StandardScopes.Email,
-                "EFlowers"
-            }
+                "LTEStore"
+            },
+            AllowOfflineAccess = true
         }
     };
 }
